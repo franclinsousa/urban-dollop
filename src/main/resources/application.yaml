@@ -1,0 +1,10 @@
+server:
+  port: ${SERVER_PORT:9999}
+
+spring:
+  application:
+    name: products
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
